@@ -1,0 +1,52 @@
+# LegendGuns Crafting Sample configuration
+# there can be multiple parts of configuration stored in different files
+#
+# multiple configurations are just to help you organise things
+
+# About permission
+# Players MUST have permissions to craft defined items, format:
+#   legendguns.crafting.[FILE_NAME_WITHOUT_DOT_YML].[RECIPE_NAME]
+# if your permission plugin supports wildcard, you can use something like:
+#   legendguns.crafting.[FILE_NAME_WITHOUT_DOT_YML].*
+# see examples below
+
+# this file is a example configuration for default weapons of LegendGuns
+
+# ===========
+#  Magazines
+# ===========
+
+# permission for this recipe is:
+# legendguns.crafting.default-weapon-crafting.craft-simple-magazine
+craft-simple-magazine:
+  # recipe type, SHAPED or SHAPELESS
+  type: SHAPELESS
+  # item and its desired amounts
+  items:
+    SULPHUR: 2
+    IRON_INGOT: 1
+  # the crafting result
+  result:
+    # weapon or magazine
+    type: magazine
+    name: simple-magazine
+
+# permission for this recipe is:
+# legendguns.crafting.default-weapon-crafting.craft-rocket-magazine
+craft-rocket-magazine:
+  # recipe type, SHAPED or SHAPELESS
+  type: SHAPED
+  # charactors in matrix
+  ingredients:
+    s: SULPHUR
+    f: FIREWORK
+  # the matrix
+  matrix:
+    - "sss"
+    - "sfs"
+    - "sss"
+  # the crafting result
+  result:
+    # weapon or magazine
+    type: weapon
+    name: test-weapon

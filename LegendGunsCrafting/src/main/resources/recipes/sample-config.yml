@@ -1,0 +1,23 @@
+# LegendGuns Crafting Sample configuration
+# there can be multiple parts of configuration stored in different files
+#
+# multiple configurations are just to help you organise things
+
+# About permission
+# Players MUST have permissions to craft defined items, format:
+#   legendguns.crafting.[FILE_NAME_WITHOUT_DOT_YML].[RECIPE_NAME]
+# if your permission plugin supports wildcard, you can use something like:
+#   legendguns.crafting.[FILE_NAME_WITHOUT_DOT_YML].*
+
+#name
+#craft-some-weapon:
+#  chars:
+#    a: DIAMOND
+#    b: GOLD
+#  matrix:
+#    - "ab"
+#    - "ba"
+#  result:
+#    # weapon or magazine
+#    type: weapon
+#    name: test-weapon

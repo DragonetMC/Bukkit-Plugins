@@ -1,0 +1,6 @@
+main: org.dragonet.bukkit.legendguns.crafting.LegendGunsCraftingPlugin
+version: 1.0
+name: LegendGunsCrafting
+author: DefinitlyEvil
+depend: ['LegendGuns']
+commands: {}
