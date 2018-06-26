@@ -1,0 +1,2 @@
+- psbg.battle-begin
+Plays when battle starts, aboarding the plane and preparing to drop. 

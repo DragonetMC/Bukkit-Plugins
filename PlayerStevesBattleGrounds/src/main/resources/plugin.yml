@@ -1,0 +1,7 @@
+main: org.dragonet.bukkit.psbg.PlayerStevesBattleGrounds
+version: 1.0
+name: PlayerStevesBattleGrounds
+author: DefinitlyEvil
+load: STARTUP
+depend: ["LegendGuns", "MenuAPI", "Vehicles"]
+commands: {}

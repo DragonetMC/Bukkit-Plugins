@@ -1,0 +1,57 @@
+exp:
+  sword: 50
+  axe: 50
+  pickaxe: 50
+  spade: 50
+  hoe: 50
+
+# level-up cost configuration
+# note: the key string (eg. wood) is the type being upgraded (eg. wood means wood to iron upgrade)
+level-up:
+  sword:
+    wood: 100
+    stone: 2000
+    iron: 5000
+    gold: 10000
+  axe:
+    wood: 100
+    stone: 2000
+    iron: 5000
+    gold: 10000
+  pickaxe:
+    wood: 100
+    stone: 2000
+    iron: 5000
+    gold: 10000
+  spade:
+    wood: 100
+    stone: 2000
+    iron: 5000
+    gold: 10000
+  hoe:
+    wood: 100
+    stone: 2000
+    iron: 5000
+    gold: 10000
+
+enchantment-cost:
+  sword:
+    DAMAGE_ALL:
+      name: "Sharpness"
+      base: 50
+      multiplier: 2
+      max-level: 10
+  axe: {}
+  pickaxe:
+    DIG_SPEED:
+      name: "Dig Speed Acceleration"
+      base: 50
+      multiplier: 2
+      max-level: 10
+  spade:
+    DIG_SPEED:
+      name: "Dig Speed Acceleration"
+      base: 50
+      multiplier: 2
+      max-level: 10
+  hoe: {}

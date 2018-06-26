@@ -1,0 +1,10 @@
+main: org.dragonet.bukkit.dplus.DerpPlus
+version: 1.2
+name: DerpPlus
+author: DefinitlyEvil
+# depend: [""]
+commands:
+  soulbind:
+    description: "Player A will suffer from all damages from player B. "
+  creepysounds:
+    description: "Play pre-defined creepy noise to a target. "

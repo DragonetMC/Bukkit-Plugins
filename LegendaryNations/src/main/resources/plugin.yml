@@ -1,0 +1,10 @@
+main: org.dragonet.bukkit.lnations.LegendaryNationsPlugin
+version: 1.2
+name: LegendaryNations
+author: DefinitlyEvil
+depend: ["MenuAPI", "Vault"]
+load: STARTUP
+commands:
+  nation:
+    aliases: ["n", "nat", "res", "land"]
+    description: "Open the nations map to manage your lnations. "

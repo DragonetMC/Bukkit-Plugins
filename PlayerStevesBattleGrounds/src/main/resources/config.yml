@@ -1,0 +1,41 @@
+
+# player requirements
+min-players: 15
+max-players: 24
+
+wait-time:
+  # seconds when not full
+  normal: 120
+  # set start timer to this if server goes full
+  full: 20
+
+# BungeeCord hub server to connect to after game ends
+hub-server: psbg-hub
+
+wait-spawn:
+    world: world
+    x: 0.0
+    y: 128.0
+    z: 0.0
+
+battles:
+    world: world
+    center-x: 0.0
+    center-z: 0.0
+    parachute-type: PC1
+    # how much time maximumly can it lasts, in seconds
+    time: 1200
+    spawn:
+      center-x: 0.0
+      center-z: 0.0
+      radius: 8.0
+    safe-zone:
+      initial-size: 16
+      # how many ticks to shrink the safe zone?
+      shrink:
+        times: 4
+        # in ticks
+        interval: 6000
+        amount: 2
+        # how many seconds to shrink dynamically
+        shrinkTime: 10

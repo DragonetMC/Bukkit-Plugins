@@ -1,0 +1,21 @@
+# delays between each play of component = base + random
+# those two values are IN SECOND
+base-delay: 4
+max-random-delay: 10
+
+# sound components, each time will play one of them randomly
+components:
+  ghast-scream-combination:
+    - ENTITY_GHAST_SCREAM
+    - ENTITY_VILLAGER_DEATH
+  someone-digging:
+    - BLOCK_GLASS_BREAK
+    - AMBIENT_CAVE
+    - BLOCK_CHEST_CLOSE
+  ladder-step:
+    - BLOCK_LADDER_STEP
+    - ENTITY_ARROW_SHOOT
+  block-place:
+    - BLOCK_STONE_PLACE
+  creeper-scare:
+    - ENTITY_CREEPER_PRIMED

@@ -1,0 +1,54 @@
+messages:
+  no-general-permission: "\u00a7FCommand doesn't exist! "
+  no-permission: "\u00a7CYou're not allowed to use this function! "
+
+console:
+  enable: "Enabling Derp+ "
+
+player-not-found: "\u00a7cPlayer not found! "
+
+soulbind:
+  help:
+    - "\u00a7B==== \u00a7ESoul Bind \u00a7B===="
+    - "\u00a76Description: \u00a7aLet player A suffers all damages from player B and shares the damage cause. "
+    - "\u00a7aLeave [playerB] empty to un-bind. "
+    - "\u00a76Usage: \u00a7a/soulbind <playerA> [playerB]"
+  can-not-find: "\u00a7CFailed to find %s"
+  bind:
+    success: "\u00a7ASuccess! Now \u00a7E%s \u00a7A will suffer from all damages from \u00a7E%s\u00a7A! "
+    failed: "\u00a7CFailed to find player %s! "
+    duplicated: "\u00a7C%s is already binded to %s! "
+  unbind:
+    success: "\u00a7AUnbind success! "
+    failed: "\u00a7CPlayer %s is not binded to any one! "
+  update:
+    player-left: "\u00a7CPlayer %s left the game, bind from %s to %s is broken! "
+
+creepy-sounds:
+  help:
+    - "\u00a7b==== \u00a7ECreepy Sound System \u00a7B===="
+    - "\u00a76Description: \u00a7aPlay creepy sounds to freak out the player. "
+    - "\u00a76Usage: "
+    - "\u00a7a/creepysounds <start/stop> <target>"
+    - "\u00a7a/creepysounds reload"
+  # a bossbar for all online admins (players with DerpPlus general permission set)
+  bossbar: "\u00a7ccreepy sounds \u00a78for \u00a7e%s \u00a78(\u00a7bnext: %s\u00a78"
+  reload-complete: "\u00a7aCreepy sounds configuration reload compelete! "
+  start:
+    success: "\u00a7aCreepy sounds started for %s! "
+    failed: "\u00a7aCreepy sounds already enabled for %s! "
+    no-definition: "\u00a7cNo definitions found in the configuration! "
+  stop:
+    success: "\u00a7aCreepy sounds stopped for %s! "
+    failed: "\u00a7cCreepy sounds is not enabled for %s! "
+  update:
+    target-quit: "\u00a76Creepy sound target player %s quit the game! "
+
+derp-god:
+  help:
+    - "\u00a7b==== \u00a7EDerp God \u00a7B===="
+    - "\u00a76Description: \u00a7aForce your victim to DERRRRP!!! "
+    - "\u00a76Usage: \u00a7a/derpgod <target> <seconds>"
+  initiated: "\u00a7eDerp! derp! derp! (%s, %d seconds)"
+  ended: "\u00a7aDerp god for %s ended! "
+  quit: "\u00a7bDerp god for %s was interupted because the player has left the game! "

@@ -1,0 +1,4 @@
+main: org.dragonet.bukkit.utoolkit.UToolkit
+version: 1.0
+name: UpgradableToolkit
+author: DefinitlyEvil
