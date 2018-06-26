@@ -1,0 +1,10 @@
+loading: "\u00a7eLoading roles... "
+done-loading: "\u00a7a\u00a7lRoles loaded successfully! "
+error-loading: "\u00a7cFailed to load your roles! Please re-join and try again! "
+update-username: "\u00a7aUpdating your username to the profile... "
+profile-created: "\u00a7eWelcome! Your profile was created with player ID #%d"
+role-notification:
+  default: "\u00a76 - applied default role [%s]"
+  limited: "\u00a76 - You have [%s] role in this server until [%s]"
+  permanent: "\u00a76 - You have [%s] role in this server permanently"
+prefix-suffix-format-error: "Prefix/suffix value didn't follow the desired format! Must follow the `priority:value` format! "

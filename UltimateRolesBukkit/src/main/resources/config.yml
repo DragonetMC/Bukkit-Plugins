@@ -1,0 +1,14 @@
+# Configuration file of UltimateRoles
+
+server:
+  # what's the name of this server? (MUST be UNIQUE)
+  name: "CHANGE THIS"
+  # the group name of this server?
+  group: ["CHANGE THIS", "ANOTHER GROUP"]
+
+# set this if you choose api as your data source
+api:
+  # edit [PATH/TO/UR_WEB/system/application/extra/security.php] to change
+  key: "CHANGE_ME"
+  url: "http://localhost/ur/api"
+  threads: 8

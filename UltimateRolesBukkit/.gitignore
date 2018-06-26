@@ -1,0 +1,5 @@
+*.bat
+/.idea
+/target
+dependency-reduced-pom.xml
+*.iml

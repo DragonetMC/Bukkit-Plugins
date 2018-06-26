@@ -1,0 +1,39 @@
+
+chat-prefix: "\u00a7d[\u00a7bUltimateRoles\u00a7d] \u00a7a"
+
+general:
+  server-error: "\u00a7cServer error! Please try-again! "
+  ur-error: "\u00a7cFailed to do your request, reason: %s"
+  loading: "Loading... "
+
+purchase:
+  confirm: "Purchasing %s"
+  progress:
+    - "\u00a7bPurchasing in progress... "
+    - "\u00a73It can be automatically added to the existing roles/perks. "
+  actions:
+    buy: "Buy"
+    renew: "Renewal"
+  success:
+    message: "%s success, please rejoin now. "
+    expire-time-notice: "New expiration time: \u00a7e%s"
+  failed:
+    balance: "\u00a7cInsufficient balance! "
+    permanent: "\u00a76You already have that role permanently! "
+
+confirmation:
+  title-prefix: "\u00a74Confirmation: "
+  option-yes: "\u00a7aYES"
+  option-no: "\u00a7cNO"
+  cancelled: "Action cancelled! "
+
+windows:
+  categories: "\u00a74Choose a category"
+  items: "\u00a74Buy/Renew Roles \u00a73(click to buy)"
+  renew: "\u00a74Select A Role to Renew"
+
+lores:
+  choose-category:
+    - "\u00a72Click to see all donator roles/perks"
+  buy-or-renew:
+    - "\u00a72Click to buy or auto renew"

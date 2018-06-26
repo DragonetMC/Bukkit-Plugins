@@ -1,0 +1,12 @@
+main: org.dragonet.bukkit.ultimateroles.ingameshop.URInGameShop
+version: 1.2
+name: UltimateRolesInGameShop
+author: DefinitlyEvil
+depend: ["UltimateRoles", "LobbyMenu"]
+commands:
+  urshop:
+    description: "Opens the server donator shop. "
+  purchase-item:
+    description: "Buy/renew an donator shop item. "
+  card:
+    description: "Redeems a donator card using serial and key. "
